@@ -1,7 +1,7 @@
 import React from 'react'
 import './ProductPage.css'
 
-export function ProductPage() {
+export function ProductPage(props) {
     return (
         <div className = "ProductPage"  >
             <section classname = "product">
@@ -13,8 +13,8 @@ export function ProductPage() {
                         <p> Product Description with specs and details</p>
                     </div>
                     <div className = "CartButtons">
-                        <button className = "buttons">Add to Cart</button>
-                        <button className = "buttons">View Cart</button>
+                        <button className = "button">Add to Cart</button>
+                        <button className = "button">View Cart</button>
                     </div>
                 </div>
             </section>
